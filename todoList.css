@@ -1,0 +1,72 @@
+body {
+  background-color: #e0f7fa;
+  /* background-color: #d0bdf4; */
+  font-family: "Arial", sans-serif;
+}
+
+.bgimg {
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.card {
+  border-radius: 15px;
+  border: none;
+}
+
+.card-header {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#userInput {
+  width: 60%;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 2px solid #ced4da;
+}
+
+.add-button {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.task-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.task-name span {
+  font-size: 1.1rem;
+}
+
+.task-name svg {
+  cursor: pointer;
+}
+
+.tasks-heading {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 10px 0;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.btn {
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.bg-light {
+  background-color: #fdfdfd !important;
+}
